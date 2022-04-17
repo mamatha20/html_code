@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 4vw;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+}
+
+.go-live-body{
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* Header */
+.go-live-bg-overlay-top{
+    width: 25rem;
+    height: 23.333333333333332rem;
+    background-image: linear-gradient(180deg,#000000C4,#00000000);
+    top: 0;
+}
+
+.go-live-user-profile{
+    width: 8rem;
+    height: 2.6666666666666665rem;
+    background-color: #FFFFFF4D;
+    border: .07rem solid #FFFFFF;
+    border-radius: 1.3333333333333333rem    ;
+}
+.go-live-prof-logo{
+    width: 2.6666666666666665rem;
+    border: .07rem solid #FFFFFF;
+}
+.go-live-prof-name ,.gol-live-prof-followers{
+    font-size: 0.733rem;
+}
+.go-live-icon-awesome-user{
+    width: 0.5886666666666667rem;
+    height: 0.6726666666666666rem;
+
+}
+.go-live-other-viewers-prof-drawer{
+    width: 2.6666666666666665rem;
+    height: 2.6666666666666665rem;
+
+}
+
+.go-live-top-viewers-profile-pic{
+    width: 2.6666666666666665rem;
+    border: .07rem solid #FFFFFF;
+
+}
+.go-live-other-viewers-prof-drawer{
+    z-index: 7;
+
+}
+.go-live-other-viewers-prof-logo-1{
+    left: 1.34rem;
+    z-index: 6;
+}
+.go-live-other-viewers-prof-logo-2{
+    left: 2.67rem;
+    z-index: 5;
+}
+.go-live-other-viewers-prof-logo-3{
+    left: 4rem;
+    z-index: 4;
+}
+.go-live-other-viewers-prof-logo-4{
+    left: 5.33rem;
+    z-index: 3;
+}
+.go-live-other-viewers-prof-logo-5{
+    left: 6.66rem;
+    z-index: 2;
+}
+.go-live-other-viewers-prof-logo-6{
+    left: 8rem;
+    z-index: 1;
+}
+.go-live-close-ico{
+    width: 1rem;
+    height: 1rem;
+}
+.go-live-live-section{
+    width: 8rem;
+    height: 1.4rem;
+}
+.go-live-live-icon{
+    background-color: #F22A2A;
+    border-radius: .1333rem;
+}
+.go-live-live-txt{
+    font-size: 0.666rem;
+    font-weight: 500;
+}
+.go-live-live-time ,.go-live-live-coin-gifted{
+    font-size: .8rem;
+}
+.go-live-coin-ico{
+    width: 1.057rem;
+    height: 1.057rem;
+}
+
+/* Bottom */
+.go-live-bg-overlay-bottom{
+    width: 25rem;
+    height: 22.4rem;
+    background-image: linear-gradient(0deg,#000000,#00000000);
+    bottom: 0;
+}
+
+.go-live-bottom-cnts{
+    height: 26.6rem;
+    bottom: 0;
+}
+.go-live-live-all-options{
+    width: 3.133rem;
+    height: 21.94rem;
+    right: 1rem ;
+    top: .23rem;
+}
+.go-live-live-option{
+    width: 3rem;
+    height: 3rem;
+    background-color: #00000069; 
+}
+.go-live-num-of-rqst{
+    width: 1.1486rem;
+    height: 1.1486rem;
+    background-color: #F22A2A;
+    border: .066rem solid #fff;
+    font-size: .766rem;
+    top: -0.5rem;
+}
+
+.go-live-friends-invite-ico#friends_ico{
+    width: 1.5753333333333333rem ;
+    height: 1.1119rem;}
+.go-live-friends-invite-ico#emoji_ico{
+    width: 1.8734rem;
+    height: 1.724rem;}
+.go-live-friends-invite-ico#beautify_ico{
+    width: 1.4rem;
+    height: 1.4rem;}
+.go-live-friends-invite-ico#settings_ico{
+    width: 1.2633rem;
+    height: 1.2633rem;
+}
+.go-live-friends-invite-ico#share_ico{
+    width: 1.4rem;
+    height: .9rem;
+}
+.go-live-friends-invite-ico#rotate_camera_ico{
+    width: 1.7646rem;
+    height: 1.414rem;
+}
+
+.go-live-say-something-box{
+    width: 22.066rem;
+    height: 2.8rem;
+    background-color: #E9E9E9;
+    border-radius: 1.4rem;
+    bottom: 1rem;
+    padding: 0 1.333rem;
+}
+.go-live-say-something-txt{
+    color: #666666;
+    font-size: .9333rem;
+}
+.go-live-smile-ico{
+    width: 1.333rem;
+}
+
+.go-live-emoji-react-ico{
+    width: 1.333rem;
+    height: 1.333rem;
+}
+.go-live-emoji-react-options{
+    width: 18.133rem;
+    bottom: 4.87rem;
+}
+
+
+/* Comment Text Component */
+
+.request_live_emoji_ico{
+    width: 1.591rem;
+    height: 1.465rem;
+}
+
+.go-live-comment-text-component{
+    width: 19.867rem;
+    height: 37.6vh;
+    bottom: 6.27rem;
+    z-index: 1031;
+    left: 1rem;
+    
+}
+.go-live-comment-mask{
+    height: 20.34rem;
+}
+.go-live-request-in-live{
+    width: 18rem;
+    height: 2.933rem;
+    background-color: #0000004b;
+    border-radius: 1.4rem;
+}
+.go-live-request-sent-txt{
+    font-size: .8rem;
+    width: 57%;
+}
+.go-live-live-request-view-opt{
+    color: #00B3FF;
+    font-size: .8rem;
+}
+.go-live-user-comment{
+    width: auto;
+    border-radius: 1.4rem;
+    background-color: #0000004b;
+}
+.go-live-comment-delete-ico{
+    width: .622rem;
+    height: .8rem;
+}
+.go-live-comment-user-name{
+    font-size: .9333rem;
+}
+.go-live-comment-text-component::-webkit-scrollbar{
+    display: none;}
+.go-live-user-comment-text-emoji{
+    width: .8rem;
+}
+.go-live-user-comment#go-live-comment-1, .go-live-user-comment#go-live-comment-2{
+    opacity: 60%;
+}
+.go-live-user-comment-text{
+    font-size: .933rem;
+}
+
+
+/* Flying Heart Reaction By Users */
+.go-live-heart-reaction-by-users{
+    width: 3.8rem;
+    height: 9.3rem;
+    bottom: 6.4rem;
+    right: 3.4rem;
+    opacity: 50%;
+}
+
+.go-live-flying-heart-emoji-on-screen{
+    width: .867rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-1{
+    bottom: 0;
+    right: .4rem;
+}
+.go-live-flying-heart-circle-div#flying-heart-2{
+    bottom: 0.533rem;
+    right: 1.266rem;
+}
+.go-live-flying-heart-circle-div#flying-heart-3{
+    bottom: 1.4rem;
+    right: .666rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-4{
+    bottom: 1.87rem;
+    right: 1.4rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-5{
+    bottom: 2.533rem;
+    right: 0;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-6{
+    top: 5.5rem;
+    right: .7rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-7{
+    top:4.933rem;
+    right: 1.8rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-8{
+    top: 4.066rem;
+    right: .9333rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-9{
+    top: 3.533rem;
+    right: 1.8rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-9{
+    top: 2.733rem;
+    right: 1.2rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-10{
+    top: 2.266rem;
+    right: 1.933rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-11{
+    top: 1.4666rem;
+    right: 1.533rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-12{
+    top: .6rem ;
+    left: .66rem;
+}
+
+.go-live-flying-heart-circle-div#flying-heart-13{
+    top: 0;
+    left: 0;
+}
